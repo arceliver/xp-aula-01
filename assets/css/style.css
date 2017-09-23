@@ -1,0 +1,52 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+	background-color: rgba(208,208,209,1);
+	min-height: 70px;
+}
+
+.navbar-brand img.logo{
+	max-height: 40px;
+}
+
+.back-call{
+	padding: 20px;
+	background-color: #000;
+}
+
+.back-call h1{
+	font-size: 50px;
+}
+.back-call p{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+}
+
+.form{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgba(172,137,85,1);
+}
+
+.form-content{
+	padding: 30px;
+	color: #FFF;
+}
+
+
+@media screen and (max-width: 768px) {
+  a {color: yellow;}
+}
+
+div.jumbotron.hero-fappes{
+  color:#fff;
+  text-align:center;
+  background: url('../img/hero.jpg');
+  background-size:cover;
+  background-position:center;
+  padding-top:250px;
+  padding-bottom:250px;
+}
+
