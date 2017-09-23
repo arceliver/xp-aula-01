@@ -1,8 +1,10 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	height: 100%;
 }
 .navbar{
-	background-color: rgba(208,208,209,1);
+	background-color: #393941;
 	min-height: 70px;
 }
 
@@ -10,9 +12,14 @@ body{
 	max-height: 40px;
 }
 
+.jumbotron{
+	margin-bottom: 0px;
+}
+
 .back-call{
 	padding: 20px;
-	background-color: #000;
+	/*background-color: #000;*/
+	color: #4A4A4A;
 }
 
 .back-call h1{
@@ -24,20 +31,40 @@ body{
 	font-weight: lighter;
 }
 
+p.form-label{
+	text-align: left;
+}
+
+.form-group:last-of-type{
+	padding-top: 20px;
+}
+
 .form{
 	padding: 10px;
-	border-radius: 10px;
-	background-color: rgba(172,137,85,1);
+	/*border-radius: 10px;*/
+	background-color: #393941;
+}
+
+.form .form-group label{
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
 }
 
 .form-content{
-	padding: 30px;
+	padding: 10px 30px;
 	color: #FFF;
+}
+
+.btn{
+	border-radius: 0px;
 }
 
 
 @media screen and (max-width: 768px) {
-  a {color: yellow;}
+  .back-call{
+  	padding-top: 100px;
+  }
 }
 
 div.jumbotron.hero-fappes{
@@ -46,7 +73,7 @@ div.jumbotron.hero-fappes{
   background: url('../img/hero.jpg');
   background-size:cover;
   background-position:center;
-  padding-top:250px;
-  padding-bottom:250px;
+  padding-top:150px;
+  padding-bottom:150px;
 }
 
