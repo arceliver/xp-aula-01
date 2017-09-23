@@ -10,8 +10,8 @@ myApp.controller('MainCtrl', ['$scope', '$window', function($scope, $window) {
 	$scope.data.email = "";	
 
 	$scope.goToThankYou = function(){
-		console.log("00000")
-		window.location.href = "/thank_you.html";
+		//VUSH
+		window.location.href = '../xp-aula-01/thank_you.html';
 	}
 
 }]);
